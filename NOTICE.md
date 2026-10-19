@@ -14,6 +14,15 @@ derived from the original work.
 - **Licence:** Apache License, Version 2.0 — see `LICENSE` (reproduced verbatim,
   unmodified)
 
+> **Note on GitHub's licence badge.** GitHub reports this repository as
+> `NOASSERTION / Other`. That is inherited from upstream, which is reported the
+> same way: the `LICENSE` file opens with the project name and copyright block
+> before the Apache title, so GitHub's classifier does not recognise it. The file
+> is Apache-2.0 verbatim — line 11 reads "Licensed under the Apache License,
+> Version 2.0". It is kept byte-for-byte identical to upstream rather than
+> reformatted, because Apache-2.0 §4(a) requires recipients of a modified work to
+> receive the licence, and `pyproject.toml` declares `license = "Apache-2.0"`.
+
 ## This version
 
 - **Project:** treelib-toolkit
