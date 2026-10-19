@@ -1,0 +1,213 @@
+{
+  "table": [
+    {
+      "test": "DeepStructureTests::test_from_json_does_not_recurse",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "DeepStructureTests::test_json_round_trip_preserves_order",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "DeepStructureTests::test_save2file_does_not_recurse",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "DeepStructureTests::test_show_does_not_recurse",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "DeepStructureTests::test_to_dict_does_not_recurse",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "DeepStructureTests::test_to_json_does_not_recurse",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "GraphvizFilterTests::test_every_edge_endpoint_is_declared",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "GraphvizFilterTests::test_no_dangling_edge",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "GraphvizFilterTests::test_returns_source",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "RenderEquivalenceTests::test_all_line_types",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_collapsed_node_is_a_leaf",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_collapsed_node_with_data",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_sorting_variants",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_to_dict_from_subtree",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_to_dict_shape",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_to_dict_unknown_node",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "RenderEquivalenceTests::test_unicode_and_quotes",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "Save2FileTests::test_append_flag_is_opt_in",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "Save2FileTests::test_second_call_overwrites",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "Save2FileTests::test_utf8_payload",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "ShowLevelTests::test_show_level_one",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "ShowLevelTests::test_show_level_two",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "ShowLevelTests::test_show_level_zero_is_default",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "ShowLevelTests::test_show_subtree_with_level",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "SingleNodeJsonTests::test_empty_tree_still_raises_on_export",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "SingleNodeJsonTests::test_non_object_root_is_rejected",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "SingleNodeJsonTests::test_round_trip",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "SingleNodeJsonTests::test_round_trip_with_identifier",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "UpdateNodeTests::test_collision_raises",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    },
+    {
+      "test": "UpdateNodeTests::test_normal_rename_still_works",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "UpdateNodeTests::test_rename_root",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "UpdateNodeTests::test_rename_then_update_tag_in_one_call",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "UpdateNodeTests::test_rename_to_same_identifier_is_allowed",
+      "upstream": "PASSED",
+      "fork": "PASSED",
+      "discriminating": false
+    },
+    {
+      "test": "UpdateNodeTests::test_tree_unchanged_after_collision",
+      "upstream": "FAILED",
+      "fork": "PASSED",
+      "discriminating": true
+    }
+  ],
+  "summary": {
+    "total": 34,
+    "discriminating": 18,
+    "guard": 16
+  }
+}

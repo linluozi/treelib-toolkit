@@ -1,0 +1,315 @@
+{
+  "deps": {},
+  "cliffs": {
+    "upstream/to_json": 997,
+    "upstream/to_dict": 998,
+    "upstream/show": 997,
+    "upstream/save2file": 997,
+    "patched/to_json": null,
+    "patched/to_dict": null,
+    "patched/show": null,
+    "patched/save2file": null
+  },
+  "sweep": {
+    "upstream|100|to_json": {
+      "ok": true,
+      "ms": 0.21720000000868822,
+      "size": 3764
+    },
+    "patched|100|to_json": {
+      "ok": true,
+      "ms": 0.4614000000060514,
+      "size": 3764
+    },
+    "upstream|100|show": {
+      "ok": true,
+      "ms": 0.7513999999559928,
+      "size": 20190
+    },
+    "patched|100|show": {
+      "ok": true,
+      "ms": 0.8644000000117558,
+      "size": 20190
+    },
+    "upstream|250|to_json": {
+      "ok": true,
+      "ms": 0.6726000000298882,
+      "size": 9764
+    },
+    "patched|250|to_json": {
+      "ok": true,
+      "ms": 1.213000000007014,
+      "size": 9764
+    },
+    "upstream|250|show": {
+      "ok": true,
+      "ms": 3.9122000000020307,
+      "size": 125640
+    },
+    "patched|250|show": {
+      "ok": true,
+      "ms": 3.4157000000050175,
+      "size": 125640
+    },
+    "upstream|400|to_json": {
+      "ok": true,
+      "ms": 0.8406999999692744,
+      "size": 15764
+    },
+    "patched|400|to_json": {
+      "ok": true,
+      "ms": 1.6851000000315253,
+      "size": 15764
+    },
+    "upstream|400|show": {
+      "ok": true,
+      "ms": 20.668299999954343,
+      "size": 321090
+    },
+    "patched|400|show": {
+      "ok": true,
+      "ms": 16.024000000015803,
+      "size": 321090
+    },
+    "upstream|550|to_json": {
+      "ok": true,
+      "ms": 1.1893999999870175,
+      "size": 21764
+    },
+    "patched|550|to_json": {
+      "ok": true,
+      "ms": 2.0351000000005115,
+      "size": 21764
+    },
+    "upstream|550|show": {
+      "ok": true,
+      "ms": 47.166199999992386,
+      "size": 606540
+    },
+    "patched|550|show": {
+      "ok": true,
+      "ms": 44.169300000021394,
+      "size": 606540
+    },
+    "upstream|700|to_json": {
+      "ok": true,
+      "ms": 1.5761000000225067,
+      "size": 27764
+    },
+    "patched|700|to_json": {
+      "ok": true,
+      "ms": 2.813699999990149,
+      "size": 27764
+    },
+    "upstream|700|show": {
+      "ok": true,
+      "ms": 108.80659999997988,
+      "size": 981990
+    },
+    "patched|700|show": {
+      "ok": true,
+      "ms": 108.47350000000233,
+      "size": 981990
+    },
+    "upstream|850|to_json": {
+      "ok": true,
+      "ms": 1.752499999952306,
+      "size": 33764
+    },
+    "patched|850|to_json": {
+      "ok": true,
+      "ms": 3.568099999995411,
+      "size": 33764
+    },
+    "upstream|850|show": {
+      "ok": true,
+      "ms": 174.71530000000257,
+      "size": 1447440
+    },
+    "patched|850|show": {
+      "ok": true,
+      "ms": 153.01889999994955,
+      "size": 1447440
+    },
+    "upstream|900|to_json": {
+      "ok": true,
+      "ms": 1.8660000000068067,
+      "size": 35764
+    },
+    "patched|900|to_json": {
+      "ok": true,
+      "ms": 4.476599999975406,
+      "size": 35764
+    },
+    "upstream|900|show": {
+      "ok": true,
+      "ms": 184.78099999998676,
+      "size": 1622590
+    },
+    "patched|900|show": {
+      "ok": true,
+      "ms": 180.6598000000008,
+      "size": 1622590
+    },
+    "upstream|950|to_json": {
+      "ok": true,
+      "ms": 2.871099999993021,
+      "size": 37764
+    },
+    "patched|950|to_json": {
+      "ok": true,
+      "ms": 4.42440000000488,
+      "size": 37764
+    },
+    "upstream|950|show": {
+      "ok": true,
+      "ms": 220.6456999999773,
+      "size": 1807740
+    },
+    "patched|950|show": {
+      "ok": true,
+      "ms": 214.40869999997858,
+      "size": 1807740
+    },
+    "upstream|1000|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 1.1003999999843472
+    },
+    "patched|1000|to_json": {
+      "ok": true,
+      "ms": 3.879199999971661,
+      "size": 39764
+    },
+    "upstream|1000|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 280.5504000000383
+    },
+    "patched|1000|show": {
+      "ok": true,
+      "ms": 244.29079999998748,
+      "size": 2002890
+    },
+    "upstream|1100|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 1.0496000000443928
+    },
+    "patched|1100|to_json": {
+      "ok": true,
+      "ms": 5.82099999996899,
+      "size": 43964
+    },
+    "upstream|1100|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 266.2570999999616
+    },
+    "patched|1100|show": {
+      "ok": true,
+      "ms": 438.173699999993,
+      "size": 2423290
+    },
+    "upstream|1500|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 0.9961000000089371
+    },
+    "patched|1500|to_json": {
+      "ok": true,
+      "ms": 9.286400000007689,
+      "size": 60764
+    },
+    "upstream|1500|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 491.704900000002
+    },
+    "patched|1500|show": {
+      "ok": true,
+      "ms": 1132.7714999999898,
+      "size": 4504890
+    },
+    "upstream|2000|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 3.2358000000272114
+    },
+    "patched|2000|to_json": {
+      "ok": true,
+      "ms": 23.810000000025866,
+      "size": 81764
+    },
+    "upstream|2000|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 360.42380000003504
+    },
+    "patched|2000|show": {
+      "ok": true,
+      "ms": 2880.9279000000174,
+      "size": 8006890
+    },
+    "upstream|3000|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 0.9684999999990396
+    },
+    "patched|3000|to_json": {
+      "ok": true,
+      "ms": 11.945599999990009,
+      "size": 123764
+    },
+    "upstream|3000|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 364.4403999999781
+    },
+    "patched|3000|show": {
+      "ok": true,
+      "ms": 7267.727799999989,
+      "size": 18010890
+    },
+    "upstream|4000|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 1.3075999999614396
+    },
+    "patched|4000|to_json": {
+      "ok": true,
+      "ms": 15.949100000000271,
+      "size": 165764
+    },
+    "upstream|4000|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 278.66210000001956
+    },
+    "patched|4000|show": {
+      "ok": true,
+      "ms": 13559.618399999978,
+      "size": 32014890
+    },
+    "upstream|5000|to_json": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 0.9500999999545456
+    },
+    "patched|5000|to_json": {
+      "ok": true,
+      "ms": 21.16110000002891,
+      "size": 207764
+    },
+    "upstream|5000|show": {
+      "ok": false,
+      "error": "RecursionError",
+      "ms": 282.94429999999693
+    },
+    "patched|5000|show": {
+      "ok": true,
+      "ms": 39119.63480000003,
+      "size": 50018890
+    }
+  }
+}
